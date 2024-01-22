@@ -204,12 +204,12 @@ body {
 /* ----------------footer------------------------ */
 
 .footer {
-    
+    background-color: #2e2f42;
 }
 
 .logo-footer {
-    color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -223,8 +223,8 @@ text-transform: uppercase;
 
 
 .footer-text {
-    color: var(--CLOUD, #F4F4FD);
-    font-family: Roboto;
+    color: #F4F4FD;;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
