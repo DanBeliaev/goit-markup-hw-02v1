@@ -1,0 +1,392 @@
+p {
+color: tomato;
+}
+
+
+p {
+background-color: tomato;
+color: white;
+}
+
+
+https://htmlcolorcodes.com/color-picker/
+
+html
+
+<h2 class="title">Привіт, я Mango.</h2>
+<p class="text">
+  Вітаю вас на моїй особистій сторінці. Тут можна подивитися
+  <a class="link" href="">проєкти</a>.
+</p>
+css
+
+
+/* Застосовується до всіх тегів з класом title */
+.title {
+    color: skyblue;
+  }
+  
+  /* Застосовується до всіх тегів із класом text */
+  .text {
+    color: brown;
+  }
+  
+  /* Застосовується до всіх тегів з класом link */
+  .link {
+      color: tomato;
+  }
+
+
+
+
+<header class="page-header">
+  <nav>
+    <ul>
+      <li><a href="#clubs">Our Clubs</a></li>
+      <li><a href="#benefits">PF Benefits</a></li>
+      <li><a href="#programs">Tips and Programs</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h1 class="page-title">Planet Fatness</h1>
+  <p>
+    Healthy food is delicious. Doing sport is enjoyable. You just need to start
+  </p>
+
+  <section>
+    <h2 id="clubs" class="section-title">Find us near you</h2>
+    <p class="section-text">
+      Get healthy, feel strong, and be happy! With 50+ classes on the menu,
+    </p>
+  </section>
+
+  <section>
+    <h2 id="benefits" class="section-title">Why choose Planet Fatness?</h2>
+    <p class="section-text">
+      We're bringing accessible, on-trend fitness to everyone! We are more than
+      just a gym - we are a community. We are the crew to help you reach the
+      goals.
+    </p>
+  </section>
+
+  <section>
+    <h2 id="programs" class="section-title">
+      How to stop doubting and start exercising regularly
+    </h2>
+    <p class="section-text">
+      Thousands of people dream about having a nice body. They start doing
+    </p>
+  </section>
+</main>
+
+<footer class="page-footer">
+  <p class="copyright-text">
+    &copy;2023 ARST Planet Fatness, Ltd. All rights reserved. Unless otherwise
+  </p>
+</footer>
+ 
+ css 
+ .page-header {
+    background-color: #bdbdbd;
+}
+.page-title{
+    color:#f44336;
+}
+.section-title{
+    color:#3f51b5;
+}
+.section-text {
+    color: #ff5722;
+    
+}
+.page-footer{
+    background-color:#212121;
+}
+.copyright-text{
+    color: #ffffff;
+}
+
+
+
+
+ dochernii spisok
+#footer li а {
+  font-weight:bold; 
+}
+
+
+
+
+
+  <ol class="benefits">
+    <li>
+      No blames, no empty promises, no people who are talking about things they
+      don't know about. Our mission is to create a safe space for you to change.
+    </li>
+    <li>
+      All our coaches are certified experts. You may have tried to work hard but
+      we'll teach you to work smart.
+    </li>
+    <li>
+      Your diet is no less important than your training. We believe in an
+      integrated approach which also includes dietitian's consultations and
+      motivational activities.
+    </li>
+    <li>
+      Healthy menu require time and effort? Not in our healthy food bars. Let's
+      discover the world of tasty low-calorie dishes.
+    </li>
+    <li>
+      You pay for reaching your goal. And it's our job to help you reach it as
+      soon as possible.
+    </li>
+  </ol>
+ 
+Псевдоклас: hover
+  <p>
+  Відмінну шпаргалку за тегами можна знайти
+  <a class="link" href="<https://htmlreference.io>">за посиланням</a>.
+</p>
+
+
+Додамо до посилання:
+
+базовий стиль;
+стиль при наведенні.
+
+
+.link {
+  color: teal;
+}
+
+.link:hover {
+  color: tomato;
+}
+
+
+li a:hover {
+        color: green; 
+        background-color: grey; 
+}
+
+Важливо розуміти, що псевдокласи:hover та :active — це різні стани. Стан :hover ініціюється, коли користувач наводить мишу на елемент. Стан :hover зазвичай представлений змінами background-color (або color). Різниця стилів між станом :hover та його відсутністю не обов'язково має бути яскраво виражена, тому що користувач вже знає, що він навів мишку на щось.
+
+
+
+Стан:activeініціюється, коли ви взаємодієте з елементами. Під взаємодією розуміється:
+
+утримання лівої кнопки миші на елементі.
+утримання кнопки пробілу (на елементах button).
+
+
+.page-nav .link:active{
+    color:#212121;
+}
+Псевдоклас :focus
+
+Активується, коли інтерактивний елемент (посилання, кнопка, поле форми) отримує фокус при натисканні на нього мишкою або при навігації по сторінці клавіатурою (клавішею Tab).
+
+.social-links .link {
+  color: teal;
+}
+
+/* Два і більше селекторів для одного правила поділяються комою */
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+
+аскадування — це механізм, який керує кінцевими значеннями властивостей елемента, якщо до нього застосовується кілька CSS-правил.
+
+
+<div class="post">
+  <h1>Lorem ipsum dolor sit amet</h1>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi,
+    veritatis nihil alias iste odit similique sit eius optio veniam, impedit
+    cumque fuga facere labore quo id necessitatibus quaerat rerum.
+  </p>
+  <a href="">Читати далі...</a>
+</div>
+
+
+
+
+.post {
+  /* Стилі статті */
+}
+
+.post > h1 {
+  /* Стилі заголовка */
+}
+
+.post > p {
+  /* Стилі текста */
+}
+
+.post > a {
+  /* Стилі посилань */
+}
+
+.post > a:hover {
+  /* Стилі посилань при наведенні */
+}
+
+
+Третій підхід полягає в завданні дуже специфічних класів блоку-батьку і кожному тегу всередині нього за принципом “ім'я батька — ім'я дитини”.
+
+
+
+<div class="post">
+  <h1 class="post-title">Lorem ipsum dolor sit amet</h1>
+  <p class="post-text">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi,
+    veritatis nihil alias iste odit similique sit eius optio veniam, impedit
+    cumque fuga facere labore quo id necessitatibus quaerat rerum.
+  </p>
+  <a href="" class="post-link">Читать дальше...</a>
+</div>
+
+
+
+Значення inherit повідомляє браузеру, що елементу необхідно успадкувати значення властивості від батьківського елемента.
+Ключове слово currentColor
+
+
+
+Якщо необхідно успадкувати поточне значення властивості кольору тексту (властивість color), то у більшості випадків ти побачиш для неї значення inherit.
+
+
+
+Але для посилань зазвичай використовується ключове слово currentColor (поточний колір). Додамо цю властивість у попередній приклад. Мета — щоб колір тексту посилання успадковувався від секції.
+
+
+
+<section class="post">
+  <h1>Lorem ipsum dolor sit</h1>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi,
+    veritatis nihil alias iste odit similique sit eius optio veniam, impedit
+    cumque fuga facere labore quo id necessitatibus quaerat rerum.
+  </p>
+  <a href="" class="post-link">Read more...</a>
+</section>
+.post {
+  color: green;
+}
+
+.post-link {
+  color: currentColor;
+}
+
+
+
+
+
+Крім того, currentColor можна використовувати для інших властивостей елемента, пов'язаних з кольором елемента, щоб знизити кількість повторень. Наприклад, колір рамки посилання має бути ідентичним поточному кольору її тексту.
+
+
+
+<a href="" class="link">Lorem ipsum dolor sit amet</a>
+.link {
+  color: orangered;
+	border: 1px solid currentcolor;
+}
+
+
+
+
+Шрифт — це набір типографських літер, цифр і спеціальних знаків певного стилю для набору тексту.
+
+
+
+Шрифти ділять на кілька основних груп (родин):
+
+шрифти із засічками (serif);
+шрифти без засічок (sans-serif);
+моноширинні (monospace);
+декоративні;
+рукописні тощо.
+
+
+p {
+  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+}
+
+
+Властивість font-family успадковується більшістю елементів, тому його задають елементу body. Винятки успадкування шрифту ми розберемо пізніше.
+
+
+
+body {
+  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+}
+
+
+За замовчуванням розмір шрифту абзаців, який встановлений у таблиці стилів браузера, дорівнює 16px.
+
+
+
+.text {
+  font-size: 20px;
+}
+
+
+Властивість font-weight
+
+
+
+Властивість font-weight контролює товщину зображення (жирність, вагу) літер у шрифті. Значення властивості можна задавати, за допомогою набору зарезервованих слів або за допомогою цифр від 100 до 900 з кроком 100. Ці значення задають ступінь товщини гліфу від тонкого 100 до товстого 900.
+
+
+Властивість font-style задає тип накреслення тексту, наприклад, можна зробити текст курсивом.
+
+
+
+font-style: normal | italic | oblique | initial | inherit
+
+
+Google Fonts — це сховище з безліччю безкоштовних шрифтів. Усе, що необхідно зробити, це:
+
+знайти шрифт, що сподобався;
+отримати на нього посилання
+
+
+Перенеси наступний HTML-код у свій файл розмітки та відкрий сторінку у браузері.
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href="<https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap>" rel="stylesheet" />
+		<link href="./css/styles.css" rel="stylesheet" />
+		<title>Document title</title>
+	</head>
+	<body>
+		<h1>Making the Web Beautiful!</h1>
+	</body>
+	</html>
+
+
+А тепер додай цей фрагмент до CSS-файлу.
+
+
+
+body {
+	font-family: 'Tangerine', cursive;
+}
+
+\
+
+Отже, Google Fonts повернув нам звичайнісінький CSS-файл, в якому є директива @font-face — оголошення шрифту. Ця директива дозволяє вказати браузеру параметри шрифту, що підключається.
+
+font-family — локальне ім'я для використання в нашому CSS-коді.
+font-style — тип накреслень (звичайний, курсив тощо).
+font-weight — вага шрифту, що підключається.
+font-display — керує відображенням тексту під час завантаження шрифту.
+src — посилання на сам файл шрифту і уточнення його типу, зазвичайwoff або woff2. У нашому випадку файл шрифту розміщено на серверах Google, але це може бути локальний шрифт, який зберігається у файлах проєкту.
+unicode-range — вказує набір необхідних символів у шрифті з таблиці символів Unicode. Завантажувати всі символи не потрібно, що менше, то швидше завантажиться шрифт.
