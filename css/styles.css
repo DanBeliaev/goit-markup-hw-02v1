@@ -6,9 +6,12 @@ body {
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 2%;
+    line-height: 1.31;
+    letter-spacing: 0.02em;
     color: #434455;
+}
+ul {
+    list-style-type: disc;
 }
 /* ----------------HEADER------------------------ */
 .logo {
@@ -29,7 +32,7 @@ body {
 .header-link {
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #2E2F42;
     letter-spacing: 0.02em;
@@ -67,12 +70,12 @@ body {
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 2%;
+        letter-spacing: 0.02em;
 }
 
 .sectfirst-button {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 1.5;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
@@ -205,7 +208,7 @@ footer {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
     color: #4d5ae5;
