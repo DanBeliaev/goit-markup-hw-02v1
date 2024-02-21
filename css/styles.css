@@ -1,62 +1,7 @@
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif; */
 
-:root {
-    --Primary-Brand: #4d5ae5;
-    --Pressed-state: #404bbf;
-    --Dark: #2e2f42;
-    --Success: #31d0aa;
-    --Text: #434455;
-    --Subtle-Text: #8e8f99;
-    --Accent: #e7e9fc;
-    --Light: #f4f4fd;
-    --Modal-overlay: rgba(46, 47, 66, 0.4);
-    --Hero-background: rgba(46, 47, 66, 0.7);
-    --B-g-color: #ffffff;
-    --Nav-color: rgba(231, 233, 252, 1);
-    --Nav-color-secondary: rgba(255, 255, 255, 1);
-    }
-body {
-    color: var(--Text);
-    background-color: var(--B-g-color);
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    }
-h1,
-h2,
-h3,
-h4,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-    }
 
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    }
-
-img {
-    display: block;
-    }
-
-address {
-    font-style: normal;
-}
-
-button {
-    cursor: pointer;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-}
 
 
 body {
@@ -134,7 +79,7 @@ ul {
 
 .sectfirst-button {
     font-family: "Roboto", sans-serif;
-    font-size: 1.5;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
